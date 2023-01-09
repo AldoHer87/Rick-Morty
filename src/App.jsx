@@ -2,6 +2,8 @@ import axios from 'axios';
 import { useEffect, useState } from 'react'
 import './App.css'
 import CharacterCard from './components/CharacterCard';
+import rickmortyphoto from '/src/assets/rickmortyphoto.png';
+import rickmortytitle from '/src/assets/rickmortytitle.png';
 
 function App() {
 
@@ -38,9 +40,9 @@ function App() {
         ) : (
           <>
             <div className='startPhoto'>
-              <img src="src/assets/rickmortyphoto.png" alt="" />
+              <img src={rickmortyphoto} alt="" />
             </div>
-            <img className='rickTitle' src="src/assets/rickmortytitle.png" alt="" />
+            <img className='rickTitle' src={rickmortytitle} alt="" />
             <div className='btton'>
               <input
                 className='input'
