@@ -38,9 +38,9 @@ function App() {
         ) : (
           <>
             <div className='startPhoto'>
-              <img src="./src/assets/rickmortyphoto.png" alt="" />
+              <img src="/src/assets/rickmortyphoto.png" alt="" />
             </div>
-            <img className='rickTitle' src="./src/assets/rickmortytitle.png" alt="" />
+            <img className='rickTitle' src="/src/assets/rickmortytitle.png" alt="" />
             <div className='btton'>
               <input
                 className='input'
